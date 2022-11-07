@@ -1,0 +1,15 @@
+:Comeco
+argumento:Inteiro
+fatorial:Inteiro
+
+:Algoritmo
+// Calcula o fatorial de um número inteiro
+Ler argumento
+Atribuicao argumento A fatorial
+If argumento = 0 Then Atribuicao 1 A fatorial
+While argumento > 1
+   Start
+      Atribuicao fatorial * (argumento - 1) A fatorial
+      Atribuicao argumento - 1 A argumento
+   End
+Print fatorial
